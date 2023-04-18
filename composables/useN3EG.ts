@@ -1,4 +1,4 @@
-export default function () {
+export const useN3EG = () => {
     const text = ref('N3EG')
     const edit = (value: string) => {
         text.value = value
